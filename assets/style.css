@@ -1,0 +1,60 @@
+body {
+    border:solid;
+    border-color: #dfb857;
+    padding: 5%;
+    hyphens: auto;
+}
+
+img {
+    display:block;
+    margin:auto;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #dfb857;
+    font-family: 'Futura';
+}
+
+p {
+    font-family: 'Georgia';
+    text-align: justify;
+    margin: 0% 5% 0% 5%
+
+}
+
+a {
+    color:white
+}
+
+.strich {
+    text-align:center;
+    color:lightgray
+}
+
+/* If the screen size is 700px wide or more, hide the element */
+@media only screen and (min-width: 700px) {
+    .hinweis_torte {
+        display:none
+    }
+}
+
+.hinweis_torte {
+        text-family:'Georgia';
+        color:red;
+        text-align: justify;
+        margin: 0% 5% 0% 5%
+    }
+
+
+
+
+footer {
+    padding: 5%;
+    text-align: center;
+    background-color: grey;
+    color: white;
+    font-style: italic;
+
+}
+
